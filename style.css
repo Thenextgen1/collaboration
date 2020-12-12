@@ -1,0 +1,47 @@
+.navbar-nav,
+.mr-auto {
+    flex: 1;
+    margin: auto !important;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+body {
+    font-family: 'Andika New Basic', sans-serif;
+}
+#dropdownMenuButton {
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+.img-fluid {
+    max-width: 70%;
+    height: auto;
+    margin-left: 220px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+#control {
+    margin-top: 170px;
+    text-align: center;
+   
+
+}
+.contact-links {
+    border-top: 1px solid #5d5d5a;
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+@media(max-width: 1200px) {
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    #control {
+        margin-top: 10px;
+    }
+}
